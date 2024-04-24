@@ -1,0 +1,34 @@
+.heafr{
+    background-color: #A2CDB0;
+}
+
+.head_sellbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    max-width: 25%;
+    background-color:#A2CDB0;
+    height: 800px;
+    margin: 2%;
+}
+
+.head_sellbox_glavtext{
+    font-size: 22px;
+    font-style: italic;
+    margin: 0 25px;
+    height: 50px;
+}
+
+.head_sellbox_div{
+    display: flex;
+    background-color: aquamarine;
+    height: 100px;
+}
+.profile_img{
+    width: 64px;
+}
+
+.head{
+    max-width: 1920px;
+}

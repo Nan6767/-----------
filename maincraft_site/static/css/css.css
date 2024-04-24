@@ -1,0 +1,13 @@
+.heafr{
+    background-color: #A2CDB0;
+}
+
+.profile_prof_href{
+    display: flex;
+    flex: 0 0 64px;
+    justify-content: center;   
+}
+
+.profile_img{
+    width: 64px;
+}

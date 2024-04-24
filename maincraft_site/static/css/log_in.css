@@ -1,0 +1,29 @@
+
+
+.register{
+    width: 25dvh;
+    height: 25dvh;
+    background-color: rgb(150, 143, 143);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+body{
+    height: 100dvh;
+    background-color: #A2CDB0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    max-width: 90%;
+    margin: 2%;
+}
+
+.registration_text{
+    margin: 2px;
+    max-width: 100%;
+}

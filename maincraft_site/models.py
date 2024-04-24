@@ -4,11 +4,11 @@ from django.db import models
 
 class user(models.Model):
     user_id = models.IntegerField
-    nickname = models.CharField(100)
-    password = models.CharField(16)
-    email = models.CharField(255)
-    phone_number = models.CharField(20)
+    nickname = models.CharField(max_length=100)
+    password = models.CharField(max_length=16)
+    email = models.CharField(max_length=255)
+    phone_number = models.CharField(max_length=20)
     
 class card(models.Model):
     cost = models.IntegerField
-    name = models.CharField(255)ш
+    name = models.CharField(max_length=255)

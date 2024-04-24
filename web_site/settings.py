@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'maincraft_site'
 ]
 
 MIDDLEWARE = [
@@ -81,7 +82,6 @@ DATABASES = {
         'PORT': 5502,
         'USER': 'root',
         'PASSWORD': '+-=()59nan_67%081',
-        
     }
 }
 
@@ -116,6 +116,7 @@ USE_I18N = True
 
 USE_TZ = True
 
+STATIC_URL = 'static/'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
